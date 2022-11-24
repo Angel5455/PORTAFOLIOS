@@ -1098,7 +1098,11 @@ section .container {
   opacity: 0;
 }
 
-.study__card:hover .marketeros__bw {
+.study__card:hover .tryhackme__bw {
+  opacity: 0;
+}
+
+.study__card:hover .marketeros__bw{
   opacity: 0;
 }
 
@@ -1110,7 +1114,7 @@ section .container {
   opacity: 0;
 }
 
-.study__card:hover .hackingw__bw {
+.study__card:hover .hackingw__bw{
   opacity: 0;
 }
 
@@ -1135,6 +1139,7 @@ section .container {
 }
 
 .python__bw,
+.tryhackme__bw,
 .marketeros__bw,
 .censa__bw,
 .js__bw,
